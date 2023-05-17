@@ -17,5 +17,15 @@
     "workflowRules": {
       "enabled": true
     }
-  }
+  },
+  "hostRules": [
+    {
+        "matchHost": "https://wsdev.jfrog.io/artifactory/default-maven-virtual/",
+        "hostType": "maven",
+        "userName": "sultanabubaker",
+        "encrypted": {
+          "password": "wcBMA8xOaBJvzJNbAQf/f1MAXagFcP87Z6uCzdHdmnk7ED9qPDHEXgHHsTOOE5cUsnDJfAd/7h3izLhNjgAkdCflROQ9ZTOVSpUFuFx1ll4JYUl/bcQjq6KhKSfSBJcvVvvYFrGI2sq+o6LzVnh0S8ofTWyME1+1PL06499p0yC2SfweLYuzeJbU9GGQycQr5LqeWiOx4QoSCsSy89m7Zpcej2+dygwybAEXeurBk1o5GOKx9vYHFVk6RMEtyt8TVkZh1IJL+2P2iKuLWrl5sXmygtBEkToxn06wQWCv3M7g3kU4INGWcdFG4h78Xc0Gy0imDj8SWnFeTJk047YuEcjO2ribJaScFdfl7XoMc9JpAXTG5SRPJ4dWlic7JGlG5VtudnQe4cdBYvPTpMAkwZQMCQ9tKsyMWih8QWZaHf0v2mjsUpaP+WUbJyT2lZgOabGArENfw6O+zyf0rhpH0h1GGwhr4UQjJhKqIk4+ylN8C72menXSBq0b"
+        }
+    }
+   ]
 }
